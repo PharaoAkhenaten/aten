@@ -1,0 +1,66 @@
+class כתר:
+    def __init__(self):
+        self.כתר״ = "כתר״"
+        self.𓎡𓏏𓂋 = "𓎡𓏏𓂋"
+        self.Keter = "Keter"
+        self.Crown = "Crown"
+        self.RowText = "RowText"
+
+class חכמה:
+    def __init__(self):
+        self.𓎡𓉔𓎡𓅓𓉔 = "𓎡𓉔𓎡𓅓𓉔"
+        self.Chochmah = "Chochmah"
+        self.Wisdom = "Wisdom"
+        self.RowText = "RowText"
+
+class בינה:
+    pass
+
+class דאאת:
+    pass
+
+class חסד:
+    pass
+
+class גבורה:
+    pass
+
+class תפארת:
+    pass
+
+class נצח:
+    pass
+
+class הוד:
+    pass
+
+class יסוד:
+    pass
+
+class מלכות:
+    pass
+
+class Sefirot:
+    def __init__(self):
+        self.ספרות = []
+        self.ספרות״ = self.ספרות
+        self.Sefirot = "Sefirot"
+        self.𓎡𓏏𓂋 = "𓎡𓏏𓂋"
+
+        self.כתר = כתר() # Keter, Crown
+        self.חכמה = חכמה() # Chochmah, Wisdom
+        self.בינה = בינה() # Binah, Understanding
+        self.דאאת = דאאת() # Daʻat, Knowledge
+        self.חסד = חסד() # Chesed, Mercy
+        self.גבורה = גבורה() # Gevurah, Strength
+        self.תפארת = תפארת() # Tiferet, Beauty
+        self.נצח = נצח() # Netzah, Victory
+        self.הוד = הוד() # Hod,Splendor
+        self.יסוד = יסוד() # Yesod, Foundation
+        self.מלכות = מלכות() # Malkuth, Kingdom
+        
+        sefirot = Sefirot()
+        print(sefirot.כתר) # <__main__.כתר object at 0x7f3e4d4c4e80>
+        print(sefirot.חכמה) # <__main__.חכמה object at 0x7f3e4d4c4eb8>
+        print(sefirot.בינה) # <__main__.בינה object at 0x7f3e4d4c4ef0>
+        # and so on...
